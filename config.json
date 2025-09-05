@@ -254,6 +254,7 @@
         "34_Anxx": {
             "name": "AV-奶香香",
             "api": "https://Naixxzy.com/api.php/provide/vod",
+            "adult": true,
             "detail": "https://Naixxzy.com"
         },
         "35_Aslzy": {
@@ -279,6 +280,7 @@
         "62_smzy": {
             "name": "AV-色猫资源",
             "api": "https://api.maozyapi.com/inc/apijson_vod.php",
+            "adult": true,
             "detail": ""
         },
         "63_msnzy": {
