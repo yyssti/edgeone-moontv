@@ -64,4 +64,3 @@ try {
   console.error('写入 runtime.ts 失败:', err);
   process.exit(1);
 }
-console.log("读取到的config.json内容如下：", config);
