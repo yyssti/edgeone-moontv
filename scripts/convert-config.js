@@ -19,6 +19,7 @@ const newRuntimePath = path.join(libDir, 'runtime.ts');
 if (fs.existsSync(oldRuntimePath)) {
   fs.unlinkSync(oldRuntimePath);
   console.log('旧的 runtime.ts 已删除');
+  console.log("读取到的config.json内容如下：", config);
 }
 
 // Read and parse config.json
