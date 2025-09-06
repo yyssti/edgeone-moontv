@@ -1,14 +1,10 @@
 /** @type {import('next').NextConfig} */
-/* eslint-disable @typescript-eslint/no-var-requires */
 const nextConfig = {
-  // 静态导出，适配 EdgeOne Pages 仅托管静态资源
   output: 'export',
-  // 确保输出到 out 目录
-  distDir: 'out',
   trailingSlash: true,
-  eslint: {
-    dirs: ['src'],
-  },
+  images: {
+    unoptimized: true
+},
 
   reactStrictMode: false,
   swcMinify: true,
